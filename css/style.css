@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+#map {
+	height: 480px;
+}
+
+.nk-header {
+  background-color: #4FC3F7;
+  margin-top: 1px;
+}
+
+.nk-footer {
+  background-color: #4FC3F7;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-top: 8px;
+}
+
+.nk-navbar {
+  background-color: #4FC3F7;
+  margin-top: 1px;
+}
+
+.nk-logo {
+	margin: 2px;
+}
+
+.nk-content {
+  background-color: #E1F5FE;
+  margin-top: 1px;
+}
+
+.nk-locationtitle {
+  background-color: #0D47A1;
+  color: white;
+  text-align: center;
+}
+
+.nk-msg-text {
+  background-color: #D0D7D9;
+  color: red;
+  text-align: center;
+}
+
+.nk-filter {
+  width: 100%;
+  font-size: .9em;
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+  .nk-filter {
+      font-size: .7em;
+  }
+}
